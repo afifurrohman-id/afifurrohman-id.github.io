@@ -1,0 +1,32 @@
+@import url('/styles/index.css');
+
+body {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  gap: 1em;
+  flex-direction: column;
+  padding: 5em 10px;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  grid-row-start: 3;
+  justify-self: center;
+  border-radius: 5em;
+  padding: 8px 12px;
+  width: max-content;
+  background-color: var(--primary-color);
+  color: inherit;
+  font-size: small;
+}
+
+a:hover {
+  opacity: 70%;
+}
+a:active {
+  opacity: 100%;
+}
